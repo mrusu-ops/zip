@@ -8,7 +8,6 @@ import time
 import argparse
 
 # python zip-bomb.py flat 1024 out.zip
-TOKEN = "aahdgsftajhsbv12ads7"
 def generate_dummy_file(filename, size):
 	with open(filename,'w') as dummy:
 		dummy.write((size*1024*1024)*'0')
